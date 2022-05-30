@@ -1,0 +1,30 @@
+.comment_card {
+  margin-top: 15px;
+}
+.commenter_comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.identity_section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.commenter_dp {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.commenter_name {
+  font-size: large;
+  font-weight: 500;
+  margin-right: 5px;
+}
+.comment_text {
+  font-size: small;
+  color: rgb(99, 95, 95);
+  padding-left: 35px;
+}

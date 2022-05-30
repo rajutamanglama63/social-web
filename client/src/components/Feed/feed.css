@@ -1,0 +1,10 @@
+.feed {
+  flex: 5.5;
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .feed {
+    flex: 12;
+  }
+}

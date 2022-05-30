@@ -1,0 +1,107 @@
+.post {
+  margin: 0 15px 20px 15px;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.62);
+}
+.profile_post {
+  margin-left: 0;
+  margin-right: 0;
+}
+.post_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  /* border-bottom: 1px solid rgb(190, 190, 190); */
+  height: 3rem;
+}
+.post_top_left_corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user_photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.user_fullname {
+  font-weight: bold;
+  color: rgb(51, 50, 50);
+}
+.post_top_right_corner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.post_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.caption {
+  padding: 10px 20px;
+  color: rgb(190, 190, 190);
+}
+.post_picture {
+  width: 100%;
+  object-fit: cover;
+}
+.post_bottom {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgb(190, 190, 190);
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 2rem;
+}
+.post_bottom_left_corner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.like_count {
+  padding-left: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.post_bottom_right_corner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comment_count {
+  padding-right: 5px;
+}
+
+.dialog_box {
+  padding: 20px;
+  height: 100vh;
+  width: 500px;
+}
+.dialog_box_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 768px) {
+  .user_fullname {
+    font-size: small;
+  }
+  .caption {
+    font-size: small;
+  }
+  .like_count {
+    font-size: small;
+    font-weight: lighter;
+  }
+}

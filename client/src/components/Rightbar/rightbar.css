@@ -1,0 +1,32 @@
+.rightbar {
+  flex: 3.5;
+  height: calc(100vh-50px);
+  position: sticky;
+  top: 50px;
+  margin-top: 5rem;
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.62);
+}
+.notificaton_wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.notifaction {
+  margin-bottom: 5px;
+}
+.show_more_btn {
+  padding: 5px;
+  background-color: rgb(234, 60, 60);
+  border: none;
+  color: white;
+  margin: 0 0 10px 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .rightbar {
+    display: none;
+  }
+}

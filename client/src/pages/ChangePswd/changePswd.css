@@ -1,0 +1,49 @@
+.change_pswd_box {
+  margin-top: 10rem;
+}
+.change_pswd_box_container {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 2rem;
+  margin: 0 auto;
+  width: 30%;
+  margin-bottom: 1rem;
+}
+.change_pswd_form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form_input_field {
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid rgb(190, 190, 190);
+  width: 100%;
+}
+.form_input_field:focus {
+  outline: none;
+}
+.change_pswd_header {
+  font-weight: 900;
+  font-size: xx-large;
+  text-align: center;
+  margin: 1rem 0;
+  color: rgb(234, 60, 60);
+}
+.change_pswd_btn {
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 1rem;
+  background-color: rgb(66, 66, 250);
+  color: rgb(234, 60, 60);
+  font-weight: 700;
+  border: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .change_pswd_box_container {
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+.user {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.link_to_profile {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.picture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.user_name {
+  font-weight: 700;
+}

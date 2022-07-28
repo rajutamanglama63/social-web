@@ -23,6 +23,8 @@ cloudinary.config({
     api_secret : process.env.CLOUD_API_SECRET
 })
 
+app.use(express.static("build"));
+
 app.use(express.json({limit : "30mb"}));
 app.use(express.urlencoded({limit : "30mb", extended : true}))
 app.use(cookieParser());
